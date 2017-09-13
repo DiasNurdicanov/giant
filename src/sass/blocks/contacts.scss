@@ -1,0 +1,28 @@
+.contacts {
+
+	a {
+		display: inline-block;
+		vertical-align: top;
+		text-decoration: none;
+		margin-right: 30px;
+		font-family: $font-family;
+
+		color: #777;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 24px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	a::before {
+		font-family: "FontAwesome";
+		color: #47a9eb;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-right: 5px;
+	}
+}

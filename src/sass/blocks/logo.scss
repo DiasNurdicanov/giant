@@ -1,0 +1,22 @@
+.logo {
+	padding: 30px 0;
+	display: flex;
+	align-items: baseline;
+
+	&__image {
+		margin-right: 4px;
+	}
+
+	&__image img {
+		display: block;
+	}
+}
+
+.page-title {
+	margin: 0;
+	color: #222;
+	font-family: "Dosis", "Roboto", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1;
+}
